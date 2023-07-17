@@ -1,0 +1,263 @@
+{% load static widget_tweaks %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}" />
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="{% static 'assets/img/favicon.ico' %}"
+    />
+    <title>Anique Khan | Freelancer</title>
+  </head>
+
+  <body>
+    <!--===== HEADER =====-->
+
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">{{ home.name }}</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title">
+            <span>{{ home.greetings_1 }}</span><br />{{ home.greetings_2 }}.
+          </h1>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+            >
+          </div>
+          {{home.picture.url}}
+          <img src="{{ home.picture.url }}" alt="" class="home__img" />
+        </div>
+      </section>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <!-- <img src="{% static 'assets/img/perfil.png' %}" alt=""> -->
+            <img src="{{ about.profile_img.url }}" alt="" />
+          </div>
+          <div>
+            <h2 class="about__subtitle">{{ about.heading }}</h2>
+            <span class="about__profession">{{ about.career }}</span>
+            <p class="about__text">{{ about.description }}</p>
+            <div class="about__social">
+              {% for profile in about.profile_set.all %}
+              <a
+                href="{{ profile.link }}"
+                class="about__social-icon"
+                target="_blank"
+              >
+                <i class="bx bxl-{{ profile.social_name }}"></i>
+              </a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            {% for category in categories %}
+            <h3 class="skills__subtitle">{{category.name}}</h3>
+            {% for skills in category.skills_set.all %}
+            <span class="skills__name">{{skills.skill_name}}</span>
+            {% endfor %} {% endfor %}
+          </div>
+          <div class="skills__img">
+            <img src="{% static 'assets/img/skill.jpg' %}" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--===== PORTFOLIO =====-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio__container bd-grid">
+          {% for portfolio in portfolios %}
+          <div class="portfolio__img">
+            <img src="{{ portfolio.image.url }}" alt="" />
+            <div class="portfolio__link">
+              <!-- Modal Button -->
+              <a
+                style="color: white"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal{{portfolio.id}}"
+                >View details</a
+              >
+            </div>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal{{portfolio.id}}"
+            tabindex="-1"
+            aria-labelledby="exampleModal{{portfolio.id}}Label"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5
+                    class="modal-title"
+                    id="exampleModal{{portfolio.id}}Label"
+                  >
+                    {{portfolio}}
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <h6><strong> Live Link : </strong></h6>
+                  <a href="{{portfolio.link}}" target="_blank"
+                    ><u>{{portfolio.live_link}}</u></a
+                  >
+                  <br />
+                  <hr />
+                  {% if portfolio.github_link %}
+                  <h6><strong> Github Link : </strong></h6>
+                  <a href="{{portfolio.github_link}}" target="_blank"
+                    ><u>{{portfolio.github_link}}</u></a
+                  >
+                  <br />
+                  <hr />
+                  {% endif %}
+                  <h6><strong>Description : </strong></h6>
+                  {{portfolio.description}}
+                  <br />
+                  <small>
+                    (For a comprehensive description , you can check the github
+                    link.)</small
+                  >
+                  <hr />
+                  <h6><strong>Screenshots</strong></h6>
+                  <img src="{{portfolio.image.url}}" alt="" />
+                  <br />
+                  <img src="{{portfolio.image.url}}" alt="" />
+                  <br />
+                  <img src="{{portfolio.image.url}}" alt="" />
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container bd-grid">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span class="contact__text">aniquekhan004@gmail.com</span>
+          </div>
+          <div class="contact__info">
+            <h3 class="contact__subtitle">PHONE</h3>
+            <span class="contact__text">+92 3443431362</span>
+          </div>
+          <div class="contact__info" style="align-items: center"></div>
+        </div>
+      </section>
+    </main>
+    <div style="display: flex; align-items: center; justify-content: center">
+      {% if messages %}
+      <ul
+        class="messages"
+        style="
+          background-color: #e8f5e9;
+          border-radius: 10px;
+          padding: 10px;
+          max-width: 100%;
+        "
+      >
+        {% for message in messages %}
+        <li style="">{{ message }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+
+    <div style="display: flex; align-items: center; justify-content: center">
+      <form action="" class="contact__form" method="post">
+        {% csrf_token %}
+        <h2 class="section-title">Send me a message!</h2>
+        {{form.name|add_class:"contact__input"|attr:"placeholder:Name"}}
+        {{form.email|add_class:"contact__input"|attr:"placeholder:Email"}}
+        <!-- prettier-ignore -->
+        {{form.message|add_class:"contact__input"|attr:"placeholder:Type a message..."}}
+        <button type="submit" value="Send" class="contact__button">
+          Submit
+        </button>
+      </form>
+    </div>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== MAIN JS =====-->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
