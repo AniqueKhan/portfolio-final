@@ -216,7 +216,7 @@
         max-width: 100%;
         ">
         {% for message in messages %}
-        <li style="">{{ message }}</li>
+        <li>{{ message }}</li>
         {% endfor %}
       </ul>
       {% endif %}
@@ -229,8 +229,7 @@
         {{form.name|add_class:"contact__input"|attr:"placeholder:Name"}}
         {{form.email|add_class:"contact__input"|attr:"placeholder:Email"}}
         <!-- prettier-ignore -->
-        {{form.message|add_class:"contact__input"|attr:"placeholder:Type a
-        message..."}}
+        {{form.message|add_class:"contact__input"|attr:"placeholder:Type a message..."}}
         <button type="submit" value="Send" class="contact__button">
           Submit
         </button>
