@@ -1,2 +1,3 @@
 venv
 portfolio_project/portfolio_project/.env
+**/__pycache__
