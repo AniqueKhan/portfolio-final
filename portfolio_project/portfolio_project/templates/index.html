@@ -152,10 +152,15 @@
                     aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                  
+                  {% if portfolio.live_link %}
                   <h6><strong> Live Link : </strong></h6>
                   <a href="{{portfolio.link}}" target="_blank"><u>{{portfolio.live_link}}</u></a>
                   <br />
                   <hr />
+                  {% endif %}
+                    
+                  
                   {% if portfolio.github_link %}
                   <h6><strong> Github Link : </strong></h6>
                   <a href="{{portfolio.github_link}}" target="_blank"><u>{{portfolio.github_link}}</u></a>

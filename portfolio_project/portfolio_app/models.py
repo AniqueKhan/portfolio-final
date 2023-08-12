@@ -64,7 +64,7 @@ class Portfolio(models.Model):
     title = models.CharField(max_length=80,null=True,blank=True)
     description = models.TextField(null=True,blank=True)
     image = models.ImageField(upload_to='portfolio/')
-    live_link = models.URLField(max_length=200)
+    live_link = models.URLField(max_length=200,blank=True,null=True)
     github_link = models.URLField(max_length=200,blank=True,null=True)
 
     def __str__(self):
