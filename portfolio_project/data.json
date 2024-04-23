@@ -1,0 +1,2520 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-08-24T16:49:06.829Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Anique",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-08-24T16:50:21.068Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Full Stack Web Developer / Freelancer",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-08-24T16:51:03.783Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Data Visualization",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (1)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (2)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (3)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (4)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (5)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-08-24T16:51:21.078Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Web Development",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (6)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (7)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (8)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (9)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (10)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-08-24T16:51:44.147Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Data Visualization",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-08-24T16:52:05.715Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Data Visualization",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (11)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (12)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (13)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (14)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (15)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-08-24T16:54:21.210Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Portfolio 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-08-24T16:55:32.021Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Data Visualization",
+      "action_flag": 2,
+      "change_message": "[{\"deleted\": {\"name\": \"skills\", \"object\": \"Skills object (None)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-08-24T16:55:47.620Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Data Visualization",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"skills\", \"object\": \"Skills object (16)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-08-25T07:54:10.465Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Portfolio 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-08-25T08:06:44.694Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-08-25T08:07:43.506Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Blogging Flask Website",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-08-25T08:12:49.357Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Blogging Flask Website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Link\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-10-04T12:34:30.446Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Django Student Portal",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-10-04T12:35:12.149Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Discord Clone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-10-04T12:36:25.830Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Web Development",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"skills\", \"object\": \"Skills object (17)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-10-04T12:36:45.848Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Data Visualization",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-10-04T12:37:06.141Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Data Visualization",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (18)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (19)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (20)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-10-04T12:38:02.906Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Web Development",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-10-04T12:39:27.359Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Web Development",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"skills\", \"object\": \"Skills object (21)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-10-04T12:40:30.484Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Web Development",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"skills\", \"object\": \"Skills object (22)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-10-04T12:41:33.920Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Web Development",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"skills\", \"object\": \"Skills object (8)\", \"fields\": [\"Skill name\"]}}, {\"changed\": {\"name\": \"skills\", \"object\": \"Skills object (9)\", \"fields\": [\"Skill name\"]}}, {\"changed\": {\"name\": \"skills\", \"object\": \"Skills object (10)\", \"fields\": [\"Skill name\"]}}, {\"changed\": {\"name\": \"skills\", \"object\": \"Skills object (17)\", \"fields\": [\"Skill name\"]}}, {\"changed\": {\"name\": \"skills\", \"object\": \"Skills object (22)\", \"fields\": [\"Skill name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-10-04T13:03:35.104Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Full Stack Web Developer / Freelancer",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}, {\"added\": {\"name\": \"profile\", \"object\": \"Profile object (1)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-10-04T13:04:46.292Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Full Stack Web Developer / Freelancer",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"profile\", \"object\": \"Profile object (2)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2022-10-04T13:05:10.420Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Full Stack Web Developer / Freelancer",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"profile\", \"object\": \"Profile object (3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2022-10-04T13:11:08.601Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2022-10-04T13:28:25.158Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2022-10-04T14:21:01.690Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Github link\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2022-10-04T14:23:52.017Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Blogging Flask Website",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Github link\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-04-21T12:10:49.361Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Anique Khan",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-04-21T12:12:07.111Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Django Student Portal",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Live link\", \"Github link\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-04-21T12:13:05.168Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Discord Clone",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-04-21T12:13:05.179Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Blogging Flask Website",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-04-21T12:19:11.107Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Github link\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-04-21T12:19:30.410Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Live link\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-04-21T12:20:39.453Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Web Development",
+      "action_flag": 2,
+      "change_message": "[{\"deleted\": {\"name\": \"skills\", \"object\": \"Skills object (None)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-04-21T12:23:08.905Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "AI Engr. / Backend Web Developer / Freelancer",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Career\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-04-21T12:24:05.584Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "AI Engr. / Backend Web Developer / Freelancer",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-04-21T12:27:54.597Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Banking System",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-04-21T12:28:53.743Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Banking System",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-04-21T12:30:33.834Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "AI Engr. / Backend Web Developer / Freelancer",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-04-22T08:55:20.246Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Muhammad Anique Khan messaged Hello there i am looking forward to place an order!! at 2023-04-22 08:50:45",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-07-17T11:43:20.715Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Live link\", \"Github link\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-07-17T12:08:51.487Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "Anique Khan",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-07-17T12:10:32.325Z",
+      "user": 1,
+      "content_type": 19,
+      "object_id": "1",
+      "object_repr": "AI Engr. / Backend Web Developer / Freelancer",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"profile\", \"object\": \"Profile object (1)\"}}, {\"added\": {\"name\": \"profile\", \"object\": \"Profile object (2)\"}}, {\"added\": {\"name\": \"profile\", \"object\": \"Profile object (3)\"}}, {\"added\": {\"name\": \"profile\", \"object\": \"Profile object (4)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-07-17T12:14:45.936Z",
+      "user": 1,
+      "content_type": 19,
+      "object_id": "1",
+      "object_repr": "AI Engr. / Backend Web Developer / Freelancer",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"profile\", \"object\": \"Profile object (5)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-07-17T12:15:32.519Z",
+      "user": 1,
+      "content_type": 18,
+      "object_id": "1",
+      "object_repr": "Data Visualization",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (1)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (2)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-07-17T12:15:59.742Z",
+      "user": 1,
+      "content_type": 18,
+      "object_id": "2",
+      "object_repr": "Web Development",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (4)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (5)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (6)\"}}, {\"added\": {\"name\": \"skills\", \"object\": \"Skills object (7)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-07-17T12:17:21.374Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-07-17T12:17:37.934Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "Django Instagram Clone",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-07-21T01:33:57.137Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "2",
+      "object_repr": "Student Portal",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-07-21T01:34:28.661Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "3",
+      "object_repr": "Anique Fitness",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-07-21T01:34:48.640Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "4",
+      "object_repr": "Banking System",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-07-21T01:36:11.709Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "5",
+      "object_repr": "My Chat App",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-07-21T01:37:05.097Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "6",
+      "object_repr": "A Django Rest Framework Project",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.551Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "47",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 09:33:54",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.566Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "46",
+      "object_repr": "Muhammad Anique messaged asdasd at 2023-07-30 09:22:02",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.572Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "45",
+      "object_repr": "Muhammad Anique Khan messaged asasd at 2023-07-30 09:21:31",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.579Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "44",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:20:50",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.588Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "43",
+      "object_repr": "Muhammad Anique messaged asd at 2023-07-30 09:20:16",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.596Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "42",
+      "object_repr": "Muhammad Anique messaged asd at 2023-07-30 09:19:48",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.608Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "41",
+      "object_repr": "Muhammad Anique messaged asd at 2023-07-30 09:19:15",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.616Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "40",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:17:45",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.623Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "39",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:16:42",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.636Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "38",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:16:06",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.653Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "37",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 09:12:09",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.659Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "36",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 09:10:50",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.668Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "35",
+      "object_repr": "asd messaged asd at 2023-07-30 09:10:35",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.674Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "34",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:10:08",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.680Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "33",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:08:41",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.692Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "32",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:08:31",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.703Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "31",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:05:42",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.708Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "30",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:05:31",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.715Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "29",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:05:28",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.728Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "28",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:05:23",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.738Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "27",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:05:17",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.745Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "26",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:05:03",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.753Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "25",
+      "object_repr": "Muhammad Anique messaged asd at 2023-07-30 09:03:37",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.763Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "24",
+      "object_repr": "Muhammad Anique messaged asd at 2023-07-30 09:03:25",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.772Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "23",
+      "object_repr": "Muhammad Anique Khan messaged asdasdasd at 2023-07-30 09:03:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.788Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "22",
+      "object_repr": "Muhammad Anique Khan messaged asdasdasd at 2023-07-30 09:02:59",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.794Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "21",
+      "object_repr": "Muhammad Anique Khan messaged asdasdasd at 2023-07-30 09:02:52",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.802Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "20",
+      "object_repr": "Muhammad Anique Khan messaged asdasdasd at 2023-07-30 09:02:52",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.808Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "Muhammad Anique Khan messaged asdasdasd at 2023-07-30 09:02:52",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.815Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "18",
+      "object_repr": "Muhammad Anique Khan messaged asdasdasd at 2023-07-30 09:02:52",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.822Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "Muhammad Anique Khan messaged asdasdasd at 2023-07-30 09:02:52",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.828Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "16",
+      "object_repr": "Muhammad Anique Khan messaged asdasdasd at 2023-07-30 09:02:51",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.837Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "15",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:02:46",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.843Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "14",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:02:36",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.851Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "13",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:02:28",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.859Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "12",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:02:16",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.870Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "11",
+      "object_repr": "Muhammad Anique Khan messaged asd at 2023-07-30 09:01:20",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.876Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "10",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 08:59:43",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.883Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "9",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 08:59:36",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.891Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "8",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 08:59:35",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.897Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "7",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 08:59:34",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.905Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "6",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 08:59:19",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.917Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "Muhammad Anique Khan messaged asdasd at 2023-07-30 08:59:15",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.924Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "4",
+      "object_repr": "HELLO messaged ASDJHAHGAHGHJD at 2023-07-21 02:22:15",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.930Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "test messaged test at 2023-07-21 02:09:22",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.938Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "hello messaged testing msg at 2023-07-21 01:50:03",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2023-07-30T09:35:38.944Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "Muhammad Anique Khan messaged Hello test msg at 2023-07-17 12:28:17",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add home",
+      "content_type": 7,
+      "codename": "add_home"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change home",
+      "content_type": 7,
+      "codename": "change_home"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete home",
+      "content_type": 7,
+      "codename": "delete_home"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view home",
+      "content_type": 7,
+      "codename": "view_home"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add about",
+      "content_type": 8,
+      "codename": "add_about"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change about",
+      "content_type": 8,
+      "codename": "change_about"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete about",
+      "content_type": 8,
+      "codename": "delete_about"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view about",
+      "content_type": 8,
+      "codename": "view_about"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add profile",
+      "content_type": 9,
+      "codename": "add_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change profile",
+      "content_type": 9,
+      "codename": "change_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete profile",
+      "content_type": 9,
+      "codename": "delete_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view profile",
+      "content_type": 9,
+      "codename": "view_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Skill",
+      "content_type": 10,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Skill",
+      "content_type": 10,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Skill",
+      "content_type": 10,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Skill",
+      "content_type": 10,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add skills",
+      "content_type": 11,
+      "codename": "add_skills"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change skills",
+      "content_type": 11,
+      "codename": "change_skills"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete skills",
+      "content_type": 11,
+      "codename": "delete_skills"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view skills",
+      "content_type": 11,
+      "codename": "view_skills"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add portfolio",
+      "content_type": 12,
+      "codename": "add_portfolio"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change portfolio",
+      "content_type": 12,
+      "codename": "change_portfolio"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete portfolio",
+      "content_type": 12,
+      "codename": "delete_portfolio"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view portfolio",
+      "content_type": 12,
+      "codename": "view_portfolio"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add contact",
+      "content_type": 13,
+      "codename": "add_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change contact",
+      "content_type": 13,
+      "codename": "change_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete contact",
+      "content_type": 13,
+      "codename": "delete_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view contact",
+      "content_type": 13,
+      "codename": "view_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add contact",
+      "content_type": 14,
+      "codename": "add_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change contact",
+      "content_type": 14,
+      "codename": "change_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete contact",
+      "content_type": 14,
+      "codename": "delete_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view contact",
+      "content_type": 14,
+      "codename": "view_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add home",
+      "content_type": 15,
+      "codename": "add_home"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change home",
+      "content_type": 15,
+      "codename": "change_home"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete home",
+      "content_type": 15,
+      "codename": "delete_home"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view home",
+      "content_type": 15,
+      "codename": "view_home"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add portfolio",
+      "content_type": 16,
+      "codename": "add_portfolio"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change portfolio",
+      "content_type": 16,
+      "codename": "change_portfolio"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete portfolio",
+      "content_type": 16,
+      "codename": "delete_portfolio"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view portfolio",
+      "content_type": 16,
+      "codename": "view_portfolio"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add skills",
+      "content_type": 17,
+      "codename": "add_skills"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change skills",
+      "content_type": 17,
+      "codename": "change_skills"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete skills",
+      "content_type": 17,
+      "codename": "delete_skills"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view skills",
+      "content_type": 17,
+      "codename": "view_skills"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add Skill",
+      "content_type": 18,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change Skill",
+      "content_type": 18,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete Skill",
+      "content_type": 18,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view Skill",
+      "content_type": 18,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add about",
+      "content_type": 19,
+      "codename": "add_about"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change about",
+      "content_type": 19,
+      "codename": "change_about"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete about",
+      "content_type": 19,
+      "codename": "delete_about"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view about",
+      "content_type": 19,
+      "codename": "view_about"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add profile",
+      "content_type": 20,
+      "codename": "add_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change profile",
+      "content_type": 20,
+      "codename": "change_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete profile",
+      "content_type": 20,
+      "codename": "delete_profile"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view profile",
+      "content_type": 20,
+      "codename": "view_profile"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$S7QKogZKHjCkoEax45g1Hu$fg1ynnkBpaeQWJzQaduXtObg3VgIWR6XFJIf3gtv4sg=",
+      "last_login": "2024-04-23T13:24:29.598Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-08-24T16:45:28.469Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "anique", "model": "home" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "anique", "model": "about" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "anique", "model": "profile" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "anique", "model": "category" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": { "app_label": "anique", "model": "skills" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": { "app_label": "anique", "model": "portfolio" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": { "app_label": "anique", "model": "contact" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": { "app_label": "portfolio_app", "model": "contact" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": { "app_label": "portfolio_app", "model": "home" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": { "app_label": "portfolio_app", "model": "portfolio" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": { "app_label": "portfolio_app", "model": "skills" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": { "app_label": "portfolio_app", "model": "category" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": { "app_label": "portfolio_app", "model": "about" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": { "app_label": "portfolio_app", "model": "profile" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3pin9ycwiq6ydc4z90ph13b9qs6i9jye",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoKQwu3XuGZpgZpGpoUtqV8e7apAvd_vfef6kRt7WMW5NlnFidlVWn3y0hPaTugO9Yb7Omua7LlPSu6IM2fZ1ZnpfD_Tso2Mq3DtFYGDhA7Ai8AAJhEoIo3mS2PpEfhkzQ9a63KQdk44wE8tn3jp1V7w_h4jfn:1ofh4Q:JMbmbMdGAIFM4jCn4pySoxDHhYXKoD-jLF_oXw5RUsA",
+      "expire_date": "2022-10-18T12:30:46.142Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "adorqkb4z8ur9ssfl7zh3ttk9dbz1y8o",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoKQwu3XuGZpgZpGpoUtqV8e7apAvd_vfef6kRt7WMW5NlnFidlVWn3y0hPaTugO9Yb7Omua7LlPSu6IM2fZ1ZnpfD_Tso2Mq3DtFYGDhA7Ai8AAJhEoIo3mS2PpEfhkzQ9a63KQdk44wE8tn3jp1V7w_h4jfn:1qLJbt:6-wV4HPWTd6kUCdQH-0YDVsaxIRWo1Y0Y7_fDQZ2IXw",
+      "expire_date": "2023-07-31T08:29:37.818Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "b3xa16q55aznnmmot0srrctxveomr878",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoKQwu3XuGZpgZpGpoUtqV8e7apAvd_vfef6kRt7WMW5NlnFidlVWn3y0hPaTugO9Yb7Omua7LlPSu6IM2fZ1ZnpfD_Tso2Mq3DtFYGDhA7Ai8AAJhEoIo3mS2PpEfhkzQ9a63KQdk44wE8tn3jp1V7w_h4jfn:1pppX0:3NFOYNvgZNPlxk5v5UZ74iI1y66wBYouJYh2fTDmU_U",
+      "expire_date": "2023-05-05T12:06:26.614Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "eyfhfer2zylttztect6ujxqnqetn2u22",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoKQwu3XuGZpgZpGpoUtqV8e7apAvd_vfef6kRt7WMW5NlnFidlVWn3y0hPaTugO9Yb7Omua7LlPSu6IM2fZ1ZnpfD_Tso2Mq3DtFYGDhA7Ai8AAJhEoIo3mS2PpEfhkzQ9a63KQdk44wE8tn3jp1V7w_h4jfn:1ofimT:jVNscQzGGGDqfY3CsZEtVqZ4hP-BA8na5IZtB0Sjq5Y",
+      "expire_date": "2022-10-18T14:20:21.451Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "f2sl82lz9hskv8oo97tnvmcmkcf4m7mj",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSG8mbp07zeQgQGpGkhKuzL-uzbpQrf3nHNfLOC21rCNvISZ2JlJdvrdIqZHbjugO7Zb56m3dZkj3xV-0MGvnfLzcrh_BxVH_dZi8o4gOaBiEGIx2hIV4SdSUBxFsN5kWbwGWRQgJQ1JCSu8UDp5VOz9Aeo8N7Y:1qQ1jq:DdroPmzH3tSL-50XVXjCWAUqTSx7acw6WlOTTsx0VFQ",
+      "expire_date": "2023-08-13T08:25:18.226Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "k7cxcgzmfsbiz1couadz7r44qjkq4t08",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoKQwu3XuGZpgZpGpoUtqV8e7apAvd_vfef6kRt7WMW5NlnFidlVWn3y0hPaTugO9Yb7Omua7LlPSu6IM2fZ1ZnpfD_Tso2Mq3DtFYGDhA7Ai8AAJhEoIo3mS2PpEfhkzQ9a63KQdk44wE8tn3jp1V7w_h4jfn:1oQtYj:B6AO-8y36fsrdlRm2aX89Xgzmvbc2-mgvNoFIOXOpuI",
+      "expire_date": "2022-09-07T16:48:53.053Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "kcl4kplnqpfln6ragrtvnkv3birqq43m",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBoKQwu3XuGZpgZpGpoUtqV8e7apAvd_vfef6kRt7WMW5NlnFidlVWn3y0hPaTugO9Yb7Omua7LlPSu6IM2fZ1ZnpfD_Tso2Mq3DtFYGDhA7Ai8AAJhEoIo3mS2PpEfhkzQ9a63KQdk44wE8tn3jp1V7w_h4jfn:1qLMcf:1bfhtBTooVwjV18WcFSObJXN9SdJB4BlwzRyvJIM0xs",
+      "expire_date": "2023-07-31T11:42:37.015Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "otbltfonro4n1439thk1lemhrvunzj39",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSG8mbp07zeQgQGpGkhKuzL-uzbpQrf3nHNfLOC21rCNvISZ2JlJdvrdIqZHbjugO7Zb56m3dZkj3xV-0MGvnfLzcrh_BxVH_dZi8o4gOaBiEGIx2hIV4SdSUBxFsN5kWbwGWRQgJQ1JCSu8UDp5VOz9Aeo8N7Y:1qQ2tu:jbXLYUdBZxXNidUrshtkH2M5pK_SsWTYLyMcaHDaZe0",
+      "expire_date": "2023-08-13T09:39:46.151Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "stqjx0dymwci5kmheae19g0ulx23c2bh",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSG8mbp07zeQgQGpGkhKuzL-uzbpQrf3nHNfLOC21rCNvISZ2JlJdvrdIqZHbjugO7Zb56m3dZkj3xV-0MGvnfLzcrh_BxVH_dZi8o4gOaBiEGIx2hIV4SdSUBxFsN5kWbwGWRQgJQ1JCSu8UDp5VOz9Aeo8N7Y:1rzG8L:Z1b0Sr8MUJLiq9po8GR8Hkm86Sn5DIj2Zsu2hfN6rvY",
+      "expire_date": "2024-05-07T13:24:29.619Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "tarns38ktdfslpwqmfkkucsj6o2juykj",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSG8mbp07zeQgQGpGkhKuzL-uzbpQrf3nHNfLOC21rCNvISZ2JlJdvrdIqZHbjugO7Zb56m3dZkj3xV-0MGvnfLzcrh_BxVH_dZi8o4gOaBiEGIx2hIV4SdSUBxFsN5kWbwGWRQgJQ1JCSu8UDp5VOz9Aeo8N7Y:1qLN1J:x6vn28BYyDsp_cl_lZJ8xcjVDBpNSgMYqWLtNjMjvAw",
+      "expire_date": "2023-07-31T12:08:05.781Z"
+    }
+  },
+  {
+    "model": "portfolio_app.home",
+    "pk": 1,
+    "fields": {
+      "name": "Anique Khan",
+      "greetings_1": "Hey ,",
+      "greetings_2": "There",
+      "picture": "picture/me-removebg-preview.png",
+      "updated": "2023-07-17T12:08:51.484Z"
+    }
+  },
+  {
+    "model": "portfolio_app.about",
+    "pk": 1,
+    "fields": {
+      "heading": "I'm Anique Khan.",
+      "career": "AI Engr. / Backend Web Developer / Freelancer",
+      "description": "Looking for an expert in data visualization, data cleaning, and Django development? With over 2 years of experience, I am the self-taught freelancer you need to exceed your expectations. As an accomplished AI engineer, I'm passionate about pushing the boundaries of what's possible, constantly expanding my knowledge and skills in this rapidly-evolving field. Whether you're looking to optimize data management, develop cutting-edge AI solutions, or harness the power of Django for your web development needs, let's work together to bring your vision to life!",
+      "profile_img": "profile/me2-removebg-preview.png",
+      "updated": "2023-07-17T12:14:45.933Z"
+    }
+  },
+  {
+    "model": "portfolio_app.profile",
+    "pk": 1,
+    "fields": {
+      "about": 1,
+      "social_name": "facebook",
+      "link": "https://www.facebook.com/muhammad.anique.332"
+    }
+  },
+  {
+    "model": "portfolio_app.profile",
+    "pk": 2,
+    "fields": {
+      "about": 1,
+      "social_name": "instragram",
+      "link": "https://www.instagram.com/anique.khan_/"
+    }
+  },
+  {
+    "model": "portfolio_app.profile",
+    "pk": 3,
+    "fields": {
+      "about": 1,
+      "social_name": "linkedin",
+      "link": "https://www.linkedin.com/in/anique44/"
+    }
+  },
+  {
+    "model": "portfolio_app.profile",
+    "pk": 4,
+    "fields": {
+      "about": 1,
+      "social_name": "fiverr",
+      "link": "https://www.fiverr.com/anique44?up_rollout=true"
+    }
+  },
+  {
+    "model": "portfolio_app.profile",
+    "pk": 5,
+    "fields": {
+      "about": 1,
+      "social_name": "github",
+      "link": "https://github.com/AniqueKhan"
+    }
+  },
+  {
+    "model": "portfolio_app.category",
+    "pk": 1,
+    "fields": {
+      "name": "Data Visualization",
+      "updated": "2023-07-17T12:15:32.513Z"
+    }
+  },
+  {
+    "model": "portfolio_app.category",
+    "pk": 2,
+    "fields": {
+      "name": "Web Development",
+      "updated": "2023-07-17T12:15:59.739Z"
+    }
+  },
+  {
+    "model": "portfolio_app.skills",
+    "pk": 1,
+    "fields": { "category": 1, "skill_name": "Pandas" }
+  },
+  {
+    "model": "portfolio_app.skills",
+    "pk": 2,
+    "fields": { "category": 1, "skill_name": "Matplotlib" }
+  },
+  {
+    "model": "portfolio_app.skills",
+    "pk": 3,
+    "fields": { "category": 1, "skill_name": "Seaborn" }
+  },
+  {
+    "model": "portfolio_app.skills",
+    "pk": 4,
+    "fields": { "category": 2, "skill_name": "Python" }
+  },
+  {
+    "model": "portfolio_app.skills",
+    "pk": 5,
+    "fields": { "category": 2, "skill_name": "Django" }
+  },
+  {
+    "model": "portfolio_app.skills",
+    "pk": 6,
+    "fields": { "category": 2, "skill_name": "Django Rest Framework" }
+  },
+  {
+    "model": "portfolio_app.skills",
+    "pk": 7,
+    "fields": { "category": 2, "skill_name": "HTML/CSS" }
+  },
+  {
+    "model": "portfolio_app.portfolio",
+    "pk": 1,
+    "fields": {
+      "title": "Django Instagram Clone",
+      "description": "A web-application similar to the Instagram Web Version",
+      "image": "portfolio/instagram_clone.png",
+      "live_link": "https://aniqueinstaclone.pythonanywhere.com/",
+      "github_link": "https://github.com/AniqueKhan/instagram_clone_final"
+    }
+  },
+  {
+    "model": "portfolio_app.portfolio",
+    "pk": 2,
+    "fields": {
+      "title": "Student Portal",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellendus quis ducimus reiciendis tenetur dicta iusto rerum ea dolorem tempore minus, optio, praesentium tempora earum error alias quisquam distinctio itaque suscipit doloremque deleniti! Quo in obcaecati dolore consequuntur. Consequatur aperiam molestiae quos rerum dolore optio qui velit magnam tempore corporis!",
+      "image": "portfolio/student_portal_-_Copy.png",
+      "live_link": "http://www.example.com",
+      "github_link": "http://www.example.com"
+    }
+  },
+  {
+    "model": "portfolio_app.portfolio",
+    "pk": 3,
+    "fields": {
+      "title": "Anique Fitness",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellendus quis ducimus reiciendis tenetur dicta iusto rerum ea dolorem tempore minus, optio, praesentium tempora earum error alias quisquam distinctio itaque suscipit doloremque deleniti! Quo in obcaecati dolore consequuntur. Consequatur aperiam molestiae quos rerum dolore optio qui velit magnam tempore corporis!",
+      "image": "portfolio/student_portal.png",
+      "live_link": "http://www.example.com",
+      "github_link": "http://www.example.com"
+    }
+  },
+  {
+    "model": "portfolio_app.portfolio",
+    "pk": 4,
+    "fields": {
+      "title": "Banking System",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellendus quis ducimus reiciendis tenetur dicta iusto rerum ea dolorem tempore minus, optio, praesentium tempora earum error alias quisquam distinctio itaque suscipit doloremque deleniti! Quo in obcaecati dolore consequuntur. Consequatur aperiam molestiae quos rerum dolore optio qui velit magnam tempore corporis!",
+      "image": "portfolio/banking_system_hzWQw1C.png",
+      "live_link": "http://www.example.com",
+      "github_link": "http://www.example.com"
+    }
+  },
+  {
+    "model": "portfolio_app.portfolio",
+    "pk": 5,
+    "fields": {
+      "title": "My Chat App",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellendus quis ducimus reiciendis tenetur dicta iusto rerum ea dolorem tempore minus, optio, praesentium tempora earum error alias quisquam distinctio itaque suscipit doloremque deleniti! Quo in obcaecati dolore consequuntur. Consequatur aperiam molestiae quos rerum dolore optio qui velit magnam tempore corporis!",
+      "image": "portfolio/discord_clone.png",
+      "live_link": "http://www.example.com",
+      "github_link": "http://www.example.com"
+    }
+  },
+  {
+    "model": "portfolio_app.portfolio",
+    "pk": 6,
+    "fields": {
+      "title": "A Django Rest Framework Project",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellendus quis ducimus reiciendis tenetur dicta iusto rerum ea dolorem tempore minus, optio, praesentium tempora earum error alias quisquam distinctio itaque suscipit doloremque deleniti! Quo in obcaecati dolore consequuntur. Consequatur aperiam molestiae quos rerum dolore optio qui velit magnam tempore corporis!",
+      "image": "portfolio/student_portal_-_Copy_hC8gHWW.png",
+      "live_link": "http://www.example.com",
+      "github_link": "http://www.example.com"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 48,
+    "fields": {
+      "name": "Muhammad Anique Khan",
+      "email": "aniquekhan004@gmail.com",
+      "message": "This is a test msg",
+      "created_at": "2023-07-30T09:36:29.683Z"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 49,
+    "fields": {
+      "name": "Muhammad Anique Khan",
+      "email": "aniquekhan004@gmail.com",
+      "message": "asd",
+      "created_at": "2023-07-30T09:42:08.758Z"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 50,
+    "fields": {
+      "name": "Muhammad Anique Khan",
+      "email": "aniquekhan004@gmail.com",
+      "message": "hjfggdfgsdfsfhghjk",
+      "created_at": "2023-09-20T19:20:38.138Z"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 51,
+    "fields": {
+      "name": "Gemma Sims",
+      "email": "xukyv@mailinator.com",
+      "message": "Dolore est est quod",
+      "created_at": "2023-09-23T09:12:59.012Z"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 52,
+    "fields": {
+      "name": "Muhammad Anique Khan",
+      "email": "aniquekhan004@gmail.com",
+      "message": "Test",
+      "created_at": "2023-09-23T09:13:06.196Z"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 53,
+    "fields": {
+      "name": "Ifeoma Winters",
+      "email": "fyqevyjem@mailinator.com",
+      "message": "Quia accusantium vol",
+      "created_at": "2023-09-23T09:13:09.399Z"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 54,
+    "fields": {
+      "name": "Mohammad Miranda",
+      "email": "gecuw@mailinator.com",
+      "message": "Dolor pariatur Culp",
+      "created_at": "2023-09-23T09:13:18.960Z"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 55,
+    "fields": {
+      "name": "Umer",
+      "email": "snaxplays57@gmail.com",
+      "message": "Best of luck",
+      "created_at": "2023-09-29T21:47:43.517Z"
+    }
+  },
+  {
+    "model": "portfolio_app.contact",
+    "pk": 56,
+    "fields": {
+      "name": "Zain Siddiqui",
+      "email": "zainsiddiqui2323@gmail.com",
+      "message": "Hello",
+      "created_at": "2024-02-06T08:42:44.664Z"
+    }
+  }
+]

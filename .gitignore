@@ -1,2 +1,5 @@
 venv
-portfolio_project/portfolio_project/.env
+.env
+**/__pycache__
+media
+*.coverage
