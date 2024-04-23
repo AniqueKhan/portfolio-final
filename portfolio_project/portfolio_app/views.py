@@ -1,6 +1,5 @@
-from django.shortcuts import render, redirect
-from .models import Home, About, Profile, Category, Skills, Portfolio, Contact
-from django.contrib import messages
+from django.shortcuts import render
+from .models import Home, About, Profile, Category, Portfolio, Contact
 from django.core.mail import send_mail
 from .forms import ContactForm
 from django.conf import settings

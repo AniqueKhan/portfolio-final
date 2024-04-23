@@ -10,7 +10,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = not ON_VPS
 
 if ON_VPS:
-    ALLOWED_HOSTS = ['184.94.215.214',"aniqueportfolio.pynabyte.com",'www.aniqueportfolio.pynabyte.com']
+    ALLOWED_HOSTS = ["aniqueportfolio.pynabyte.com",'www.aniqueportfolio.pynabyte.com']
 else:
     ALLOWED_HOSTS = ['localhost']
 
