@@ -121,7 +121,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'portfolio_project/static')
 ]
-STATIC_ROOT = "/home/pynabyte/static_root_directory/static_root_portfolio_personal" if ON_VPS else ''
+STATIC_ROOT = "/home/pynabyte/static_root_directory/static_root_personal_portfolio" if ON_VPS else ''
 
 
 MEDIA_URL = '/media/'
