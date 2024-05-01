@@ -126,8 +126,8 @@ STATIC_ROOT = "/home/pynabyte/static_root_directory/static_root_personal_portfol
 
 MEDIA_URL ='/media/'
 # MEDIA_URL = 'http://www.aniqueportfolio.pynabyte.com/media/' if ON_VPS else '/media/'
-# MEDIA_ROOT ='/home/pynabyte/media_directory/media_directory_personal_portfolio' if ON_VPS else os.path.join(BASE_DIR, 'media')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT ='/home/pynabyte/media_directory/media_directory_personal_portfolio' if ON_VPS else os.path.join(BASE_DIR, 'media')
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
