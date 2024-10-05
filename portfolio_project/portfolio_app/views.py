@@ -46,7 +46,7 @@ def contact_view(request):
             Contact.objects.create(email=email, name=name, message=message)
 
             # Sending email to myself
-            email_subject = "You got a message from your live portfolio website"
+            email_subject = "You got a message from your live personal portfolio website"
             email_msg = f"Name : {name}\nEmail : {email}\nMessage : {message}"
             send_mail(
                 subject=email_subject,
