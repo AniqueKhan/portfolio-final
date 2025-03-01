@@ -10,24 +10,23 @@
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
-      />
+    />
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}" />
     <!-- ===== BOX ICONS ===== -->
     <link
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
-      />
+    />
 
     <link
       rel="shortcut icon"
       type="image/png"
       href="{% static 'assets/img/favicon.ico' %}"
-      />
+    />
     <title>Anique Khan | Freelancer</title>
   </head>
-  
-  
+
   <body>
     <!--===== HEADER =====-->
 
@@ -68,8 +67,9 @@
             <span>{{ home.greetings_1 }}</span><br />{{ home.greetings_2 }}.
           </h1>
           <div class="home__scroll">
-            <a href="#about" class="home__scroll-link"><i class="bx
-                bx-up-arrow-alt"></i>Scroll down</a>
+            <a href="#about" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+            >
           </div>
           <img src="{{ home.picture.url }}" alt="" class="home__img" />
         </div>
@@ -91,7 +91,8 @@
               <a
                 href="{{ profile.link }}"
                 class="about__social-icon"
-                target="_blank">
+                target="_blank"
+              >
                 <i class="bx bxl-{{ profile.social_name }}"></i>
               </a>
               {% endfor %}
@@ -115,6 +116,8 @@
           </div>
         </div>
       </section>
+      {% if portfolios %}
+
       <!--===== PORTFOLIO =====-->
       <section class="portfolio section" id="portfolio">
         <h2 class="section-title">Portfolio</h2>
@@ -127,7 +130,9 @@
               <a
                 style="color: white"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal{{portfolio.id}}">View details</a>
+                data-bs-target="#exampleModal{{portfolio.id}}"
+                >View details</a
+              >
             </div>
           </div>
           <!-- Modal -->
@@ -136,34 +141,37 @@
             id="exampleModal{{portfolio.id}}"
             tabindex="-1"
             aria-labelledby="exampleModal{{portfolio.id}}Label"
-            aria-hidden="true">
+            aria-hidden="true"
+          >
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5
                     class="modal-title"
-                    id="exampleModal{{portfolio.id}}Label">
+                    id="exampleModal{{portfolio.id}}Label"
+                  >
                     {{portfolio}}
                   </h5>
                   <button
                     type="button"
                     class="btn-close"
                     data-bs-dismiss="modal"
-                    aria-label="Close"></button>
+                    aria-label="Close"
+                  ></button>
                 </div>
                 <div class="modal-body">
-                  
                   {% if portfolio.live_link %}
                   <h6><strong> Live Link : </strong></h6>
-                  <a href="{{portfolio.link}}" target="_blank"><u>{{portfolio.live_link}}</u></a>
+                  <a href="{{portfolio.link}}" target="_blank"
+                    ><u>{{portfolio.live_link}}</u></a
+                  >
                   <br />
                   <hr />
-                  {% endif %}
-                    
-                  
-                  {% if portfolio.github_link %}
+                  {% endif %} {% if portfolio.github_link %}
                   <h6><strong> Github Link : </strong></h6>
-                  <a href="{{portfolio.github_link}}" target="_blank"><u>{{portfolio.github_link}}</u></a>
+                  <a href="{{portfolio.github_link}}" target="_blank"
+                    ><u>{{portfolio.github_link}}</u></a
+                  >
                   <br />
                   <hr />
                   {% endif %}
@@ -172,7 +180,8 @@
                   <br />
                   <small>
                     (For a comprehensive description , you can check the github
-                    link.)</small>
+                    link.)</small
+                  >
                   <hr />
                   <h6><strong>Screenshots</strong></h6>
                   <img src="{{portfolio.image.url}}" alt="" />
@@ -185,7 +194,8 @@
                   <button
                     type="button"
                     class="btn btn-secondary"
-                    data-bs-dismiss="modal">
+                    data-bs-dismiss="modal"
+                  >
                     Close
                   </button>
                 </div>
@@ -195,6 +205,7 @@
           {% endfor %}
         </div>
       </section>
+      {% endif %}
       <!--===== CONTACT =====-->
       <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
@@ -215,17 +226,20 @@
       <div class="row">
         <div class="col-4"></div>
         <div class="col-4">
-          <div class="thank-you-message" style="display: none;">
-          <ul class="messages" style="
-          background-color: #e8f5e9;
-          border-radius: 10px;
-          padding: 10px;
-          max-width: 100%;">
-          </ul></div>
+          <div class="thank-you-message" style="display: none">
+            <ul
+              class="messages"
+              style="
+                background-color: #e8f5e9;
+                border-radius: 10px;
+                padding: 10px;
+                max-width: 100%;
+              "
+            ></ul>
+          </div>
         </div>
       </div>
     </div>
-    
 
     <div style="display: flex; align-items: center; justify-content: center">
       <form action="" class="contact__form" method="post" id="contactForm">
@@ -242,58 +256,61 @@
     </div>
 
     <!-- Include jQuery library -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script>
-  $(document).ready(function () {
-    var form = $("#contactForm");
-    var submitButton = form.find('button[type="submit"]');
-    var thankYouMessage = $(".thank-you-message"); // Reference to the thank you message container
+    <script>
+      $(document).ready(function () {
+        var form = $("#contactForm");
+        var submitButton = form.find('button[type="submit"]');
+        var thankYouMessage = $(".thank-you-message"); // Reference to the thank you message container
 
-    // Initially hide the thank you message
-    thankYouMessage.hide();
+        // Initially hide the thank you message
+        thankYouMessage.hide();
 
-    // Handle form submission using AJAX
-    form.on("submit", function (e) {
-      e.preventDefault();
+        // Handle form submission using AJAX
+        form.on("submit", function (e) {
+          e.preventDefault();
 
-      // Disable the submit button to prevent multiple submissions
-      submitButton.prop("disabled", true);
-      submitButton.html("Sending..."); // Change the button text
+          // Disable the submit button to prevent multiple submissions
+          submitButton.prop("disabled", true);
+          submitButton.html("Sending..."); // Change the button text
 
-      $.ajax({
-        type: "POST",
-        url: "/contact_view", // Replace 'contact_view' with the URL of your separate view handling the POST request
-        data: form.serialize(),
-        success: function (response) {
-          // Display success message without reloading the page
-          thankYouMessage.find(".messages").empty();
-          thankYouMessage.find(".messages").append("<li>Thank you for reaching out. We will get back to you!</li>");
-          // Show the message
-          thankYouMessage.fadeIn(500);
-          // Hide the message after 5 seconds
-          setTimeout(function () {
-            thankYouMessage.fadeOut(500);
-          }, 5000);
-          // Reset the form after successful submission (optional)
-          form.trigger("reset");
-        },
-        error: function (error) {
-          // Handle errors, if any
-          console.log("Error:", error);
-        },
-        complete: function () {
-          // Re-enable the submit button after 10 seconds
-          setTimeout(function () {
-            submitButton.prop("disabled", false);
-            submitButton.html("Submit"); // Reset the button text
-          }, 5000);
-        },
+          $.ajax({
+            type: "POST",
+            url: "/contact_view", // Replace 'contact_view' with the URL of your separate view handling the POST request
+            data: form.serialize(),
+            success: function (response) {
+              // Display success message without reloading the page
+              thankYouMessage.find(".messages").empty();
+              thankYouMessage
+                .find(".messages")
+                .append(
+                  "<li>Thank you for reaching out. We will get back to you!</li>"
+                );
+              // Show the message
+              thankYouMessage.fadeIn(500);
+              // Hide the message after 5 seconds
+              setTimeout(function () {
+                thankYouMessage.fadeOut(500);
+              }, 5000);
+              // Reset the form after successful submission (optional)
+              form.trigger("reset");
+            },
+            error: function (error) {
+              // Handle errors, if any
+              console.log("Error:", error);
+            },
+            complete: function () {
+              // Re-enable the submit button after 10 seconds
+              setTimeout(function () {
+                submitButton.prop("disabled", false);
+                submitButton.html("Submit"); // Reset the button text
+              }, 5000);
+            },
+          });
+        });
       });
-    });
-  });
-</script>
-
+    </script>
 
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -302,6 +319,7 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
