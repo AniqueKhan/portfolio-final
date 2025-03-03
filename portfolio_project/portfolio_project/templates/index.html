@@ -116,7 +116,7 @@
           </div>
         </div>
       </section>
-      {% if portfolios.length != 0 %}
+      {% if portfolios %}
 
       <!--===== PORTFOLIO =====-->
       <section class="portfolio section" id="portfolio">
@@ -182,13 +182,6 @@
                     (For a comprehensive description , you can check the github
                     link.)</small
                   >
-                  <hr />
-                  <h6><strong>Screenshots</strong></h6>
-                  <img src="{{portfolio.image.url}}" alt="" />
-                  <br />
-                  <img src="{{portfolio.image.url}}" alt="" />
-                  <br />
-                  <img src="{{portfolio.image.url}}" alt="" />
                 </div>
                 <div class="modal-footer">
                   <button

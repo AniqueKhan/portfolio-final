@@ -28,7 +28,7 @@ def index(request):
         'about': about,
         'profiles': profiles,
         'categories': categories,
-        'portfolios': portfolios if portfolios.exists() else None,
+        'portfolios': portfolios,
         'form': form
     }
 
